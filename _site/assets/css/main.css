@@ -1,0 +1,288 @@
+/* These are the colors and fonts used throughout the webpage.
+ * I've listed them here so that a user may easily
+ * do a search-and-replace for these to change the site theme.
+ *   'Roboto',sans-serif; Font for the title text
+ *   'Roboto-Slab',serif; Font for the body text 
+ *   #fafafa; Background color of the site
+ *   #505050; Foreground (text) color of the site
+ *   #52739e; Navy, "Template" in the logo, current page in navigation, special titles in the Program
+ *   #b2132e; Reddish, "Conference" in the logo, hover color for links
+ *   #813c54; Heading color, titles in the Program
+ *   #b8860b; Dark Goldenrod, color for links
+ */
+@import url("https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab");
+body {
+  background-color: #fff;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  clear: left;
+  color: #00326d;
+  margin: 1.5em 0em 1em 0em;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  padding: 0px;
+}
+
+.banner {
+  position: relative;
+  font-family: "Roboto Slab", serif;
+}
+
+.top-left {
+  font-size: 5.33em;
+  color: #505050;
+  text-align: center;
+  height: 100px;
+  position: absolute;
+  padding: 36px 0 0 0;
+  top: -30px;
+  left: 20px;
+}
+
+.bottom-right {
+  font-size: 2.33em;
+  color: #fafafa;
+  line-height: 1.5em;
+  height: 100px;
+  padding: 0px 27px 27px 0px;
+  text-align: right;
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+  text-shadow: 0px 0px 6px #000000;
+}
+
+/* Conference Title Logo */
+.title1 {
+  color: #b2132e;
+  font-size: 0.7em;
+  text-shadow: -1px 1px 2px #fff, 1px 1px 2px #fff, 1px -1px 2px #fff, -1px -1px 2px #fff;
+}
+
+.title2 {
+  color: #52739e;
+  font-size: 0.7em;
+  text-shadow: -1px 1px 2px #fff, 1px 1px 2px #fff, 1px -1px 2px #fff, -1px -1px 2px #fff;
+}
+
+.year {
+  color: #505050;
+  font-size: 0.57em;
+  font-weight: lighter;
+  text-shadow: -1px 1px 2px #fff, 1px 1px 2px #fff, 1px -1px 2px #fff, -1px -1px 2px #fff;
+}
+
+.navbar-fixed {
+  position: absolute;
+  z-index: 999999999;
+}
+
+#logos {
+  position: relative;
+  bottom: 0;
+  left: 0%;
+  width: 100%;
+}
+
+@media only screen and (min-width: 1400px) {
+  #logos {
+    left: 20%;
+    width: 60%;
+  }
+}
+#logos-cont {
+  position: absolute;
+  bottom: -5px;
+  width: 100%;
+  text-align: center;
+}
+
+#secondary-title-text {
+  color: #ffffff;
+  font-size: 12px;
+  line-height: normal;
+}
+
+.sponsor-row a {
+  /*color: {{site.color.primary-dark}};*/
+}
+
+.section-gray-section {
+  background-color: #ebeef2;
+}
+
+.section-gray-header {
+  color: #00326d;
+  font-weight: bold;
+}
+
+.section-gray-body {
+  color: black;
+  font-size: 17px;
+}
+
+.section-white-section {
+  background-color: #ffffff;
+}
+
+.section-white-header {
+  color: #00326d;
+  font-weight: bold;
+}
+
+.section-white-body {
+  color: black;
+  font-size: 17px;
+}
+
+.card-title {
+  color: #fff;
+  white-space: nowrap;
+}
+
+#footer {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.carousel .carousel-item {
+  width: 320px !important;
+}
+
+.google-maps {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.schedule tbody td {
+  width: 80%;
+}
+
+.schedule tbody th {
+  color: #a9b2b9;
+  /*padding-top: 40px;  */
+  font-size: 14px;
+  /*font-weight: 400;*/
+  /*text-transform: uppercase;*/
+  /*vertical-align: top;*/
+  width: 20%;
+  text-align: right;
+  padding-right: 45px;
+}
+
+.papers tbody th {
+  color: #a9b2b9;
+  /*padding-top: 40px;  */
+  font-size: 14px;
+  /*font-weight: 400;*/
+  /*text-transform: uppercase;*/
+  /*vertical-align: top;*/
+  width: 20%;
+  text-align: right;
+  padding-right: 45px;
+}
+
+.papers tbody td {
+  width: 80%;
+}
+
+.posters tbody td {
+  width: 80%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.nav {
+  box-shadow: none;
+  background-color: #9d2246;
+}
+
+.banner {
+  max-width: 100%;
+  height: 500px;
+  margin: auto;
+  overflow: auto;
+  background-image: url();
+  data-isc-source-text: "(c) University of Bremen";
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  width: 100%;
+  /*position: relative;*/
+  top: 0;
+  left: 0;
+}
+
+.banner img {
+  margin: auto;
+  overflow: auto;
+  height: 500px;
+  width: 100%;
+  object-position: right bottom;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+}
+
+.banner figcaption {
+  color: #fff;
+  font-size: 0.75em;
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+  text-align: right;
+}
+
+#main-title {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #d50c2f;
+}
+
+#secondary-title {
+  padding: 10px;
+  background-color: #9d2246;
+}
+
+.banner-heading {
+  text-align: center;
+  font-weight: bold;
+  color: #ebf0f4;
+  text-shadow: 0px 0px 6px #000000;
+}
+
+.sponsor-row {
+  background-color: #9d2246;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.banner-subheading {
+  text-align: center;
+  font-weight: bold;
+  color: #ebf0f4;
+  text-shadow: 0px 0px 6px #000000;
+}
+
+/*# sourceMappingURL=main.css.map */

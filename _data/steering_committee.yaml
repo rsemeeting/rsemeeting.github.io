@@ -1,0 +1,15 @@
+- name: Thorsten Berger
+  title:  Title
+  image: https://via.placeholder.com/400
+  link: http://website.com
+  affiliation: Ruhr University Bochum
+- name: Patrizio Pelliccione
+  title:  Title
+  image: https://via.placeholder.com/400
+  link: http://website.com
+  affiliation: Gran Sasso Science Institute
+- name: Davide Brugali
+  title:  Title
+  image: https://via.placeholder.com/400
+  link: http://website.com
+  affiliation: University of Bergamo
