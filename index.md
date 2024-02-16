@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-# {{ site.conference_title }}
+# Robotics Software Engineering
 
 ## About 
 
