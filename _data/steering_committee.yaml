@@ -1,15 +1,15 @@
 - name: Thorsten Berger
   title:  Title
-  image: https://via.placeholder.com/400
-  link: http://website.com
+  image: assets/thorsten.jpg
+  link: https://se.ruhr-uni-bochum.de/thorsten-berger/
   affiliation: Ruhr University Bochum
 - name: Patrizio Pelliccione
   title:  Title
-  image: https://via.placeholder.com/400
-  link: http://website.com
+  image: assets/patrizio.jpg
+  link: https://www.patriziopelliccione.com/
   affiliation: Gran Sasso Science Institute
 - name: Davide Brugali
   title:  Title
-  image: https://via.placeholder.com/400
-  link: http://website.com
+  image: assets/davide.png
+  link: https://www.unibg.it/ugov/person/2520
   affiliation: University of Bergamo

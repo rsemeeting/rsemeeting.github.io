@@ -14,5 +14,5 @@ layout: home
 
 ## Previous Editions
 
-- [RSE 2022](https://rsemeeting.github.io/rse2022/) - (King's College London, UK)
-- [RSE 2023](https://rsemeeting.github.io/rse2023/) - (Gran Sasso Science Institute / Univ. of L'Aquila, L'Aquila, IT)
+- [RSE 2022](https://rsemeeting.github.io/rse2022/) - King's College London, UK
+- [RSE 2023](https://rsemeeting.github.io/rse2023/) - Gran Sasso Science Institute / Univ. of L'Aquila, L'Aquila, IT
