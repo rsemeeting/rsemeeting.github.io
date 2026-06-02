@@ -5,9 +5,8 @@ layout: home
   <h1>Robotics Software Engineering</h1>
   <p class="lead">RSE is an annual meeting series for researchers working at the intersection of robotics and software engineering.</p>
   <p>The meeting is designed around discussion, feedback, and collaboration. It creates space for presenting ongoing work, exchanging ideas across communities, and strengthening ties between researchers at different career stages.</p>
-  <div class="hero-actions">
-    <a href="{{ site.current_edition_url }}" class="btn-large" style="font-weight:bold; background-color: {{site.color.primary-dark}}">Visit the website of RSE 2026 in Barcelona, Spain {{ site.current_edition_year }}</a>
-  </div>
+    Current edition:
+	<a href="{{ site.current_edition_url }}" style="font-weight:bold">RSE 2026 in Barcelona, Spain {{ site.current_edition_year }}</a>
 </section>
 
 <section class="content-section" id="supporting-institutions">
