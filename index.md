@@ -12,13 +12,6 @@ layout: home
   </div>
 </section>
 
-<section class="content-section content-section-muted" id="current-edition">
-  <span class="eyebrow">Current Edition</span>
-  <h2>RSE {{ site.current_edition_year }}</h2>
-  <p>The current meeting website contains the full local information for the latest edition, including application details, logistics, venue information, and the evolving program.</p>
-  <p><a href="{{ site.current_edition_url }}">Open the RSE {{ site.current_edition_year }} website</a></p>
-</section>
-
 <section class="content-section" id="supporting-institutions">
   <h2>Supporting Institutions</h2>
   <p>RSE is supported by the steering committee institutions and by the institutes and universities that have organized previous editions of the meeting.</p>
