@@ -10,10 +10,12 @@ copyright: Conference Organizers
 conference_title: "Robotics Software Engineering"
 conference_title_short: "RSE"
 
-# Current meeting
-year: "2024"
-dates: September 2nd-5th
-venue: University of Bremen, Germany
+# Current meeting website
+current_edition_year: "2026"
+current_edition_url: "https://rsemeeting.github.io/rse2026/"
+
+# Meeting series
+series_description: "Annual meeting series connecting the Robotics and Software Engineering communities."
 
 # Color settings
 color:
