@@ -1,31 +1,31 @@
 ---
 layout: home
 ---
-<div id="about"></div>
+<section class="hero-section" id="about">
+  <span class="eyebrow">Meeting Series</span>
+  <h1>Robotics Software Engineering</h1>
+  <p class="lead">RSE is an annual meeting series for researchers working at the intersection of robotics and software engineering.</p>
+  <p>The meeting is designed around discussion, feedback, and collaboration. It creates space for presenting ongoing work, exchanging ideas across communities, and strengthening ties between researchers at different career stages.</p>
+  <p>Each yearly edition has its own dedicated website with local details, application information, venue notes, and schedule updates.</p>
+  <div class="hero-actions">
+    <a href="{{ site.current_edition_url }}" class="btn-large" style="font-weight:bold; background-color: {{site.color.primary-dark}}">Visit RSE {{ site.current_edition_year }}</a>
+    <a class="text-link" href="#previous-editions">Browse Previous Editions</a>
+  </div>
+</section>
 
-# Robotics Software Engineering
+<section class="content-section content-section-muted" id="current-edition">
+  <span class="eyebrow">Current Edition</span>
+  <h2>RSE {{ site.current_edition_year }}</h2>
+  <p>The current meeting website contains the full local information for the latest edition, including application details, logistics, venue information, and the evolving program.</p>
+  <p><a href="{{ site.current_edition_url }}">Open the RSE {{ site.current_edition_year }} website</a></p>
+</section>
 
-## About 
+<section class="content-section" id="supporting-institutions">
+  <span class="eyebrow">Network</span>
+  <h2>Supporting Institutions</h2>
+  <p>RSE is supported by the steering committee institutions and by the institutes and universities that have organized previous editions of the meeting.</p>
 
-Robotics Software Engineering (RSE) is an annual meeting series that brings together researchers working at the intersection of robotics and software engineering.
-
-The meeting is designed to support discussion, feedback, and new collaborations across both communities. It provides a forum for presenting ongoing work, exchanging ideas, and building connections between researchers at different career stages.
-
-Each yearly edition has its own dedicated event website with local details, application information, schedule updates, and venue information.
-
-## Current Edition
-
-[RSE {{ site.current_edition_year }} website]({{ site.current_edition_url }})
-
-<a href="{{ site.current_edition_url }}" class="btn-large" style="font-weight:bold; background-color: {{site.color.primary-dark}}">Visit RSE {{ site.current_edition_year }}</a>
-
-<div id="supporting-institutions"></div>
-
-## Supporting Institutions
-
-RSE is supported by the steering committee institutions and by the institutes and universities that have organized previous editions of the meeting.
-
-<div class="institution-grid">
+  <div class="institution-grid">
   <a class="institution-card" href="https://www.se.ruhr-uni-bochum.de/">
     <img class="institution-logo" src="{{ '/assets/logos/rub-chair-se.svg' | relative_url }}" alt="Ruhr University Bochum, Chair of Software Engineering">
     <span class="institution-role">Steering committee</span>
@@ -67,14 +67,17 @@ RSE is supported by the steering committee institutions and by the institutes an
     <span class="institution-role">Host of RSE 2026</span>
     <span class="institution-name">Institut de Robotica i Informatica Industrial, CSIC-UPC</span>
   </a>
-</div>
+  </div>
+</section>
 
-<div id="previous-editions"></div>
-
-## Previous Editions
-
-- [RSE 2022](https://rsemeeting.github.io/rse2022/) - Gran Sasso Science Institute, L'Aquila, Italy
-- [RSE 2023](https://rsemeeting.github.io/rse2023/) - King's College London, UK
-- [RSE 2024](https://rsemeeting.github.io/rse2024/) - University of Bremen, Germany
-- [RSE 2025](https://rsemeeting.github.io/rse2025/) - University of Southern Denmark, Odense, Denmark
-- [RSE 2026](https://rsemeeting.github.io/rse2026/) - Institut de Robotica i Informatica Industrial (IRI), CSIC-UPC, Barcelona, Spain
+<section class="content-section content-section-muted" id="previous-editions">
+  <span class="eyebrow">Archive</span>
+  <h2>Previous Editions</h2>
+  <ul class="edition-list">
+    <li><a href="https://rsemeeting.github.io/rse2022/">RSE 2022</a> - Gran Sasso Science Institute, L'Aquila, Italy</li>
+    <li><a href="https://rsemeeting.github.io/rse2023/">RSE 2023</a> - King's College London, UK</li>
+    <li><a href="https://rsemeeting.github.io/rse2024/">RSE 2024</a> - University of Bremen, Germany</li>
+    <li><a href="https://rsemeeting.github.io/rse2025/">RSE 2025</a> - University of Southern Denmark, Odense, Denmark</li>
+    <li><a href="https://rsemeeting.github.io/rse2026/">RSE 2026</a> - Institut de Robotica i Informatica Industrial (IRI), CSIC-UPC, Barcelona, Spain</li>
+  </ul>
+</section>
