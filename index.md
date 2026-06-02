@@ -2,7 +2,6 @@
 layout: home
 ---
 <section class="hero-section" id="about">
-  <span class="eyebrow">Meeting Series</span>
   <h1>Robotics Software Engineering</h1>
   <p class="lead">RSE is an annual meeting series for researchers working at the intersection of robotics and software engineering.</p>
   <p>The meeting is designed around discussion, feedback, and collaboration. It creates space for presenting ongoing work, exchanging ideas across communities, and strengthening ties between researchers at different career stages.</p>
@@ -21,7 +20,6 @@ layout: home
 </section>
 
 <section class="content-section" id="supporting-institutions">
-  <span class="eyebrow">Network</span>
   <h2>Supporting Institutions</h2>
   <p>RSE is supported by the steering committee institutions and by the institutes and universities that have organized previous editions of the meeting.</p>
 
@@ -71,7 +69,6 @@ layout: home
 </section>
 
 <section class="content-section content-section-muted" id="previous-editions">
-  <span class="eyebrow">Archive</span>
   <h2>Previous Editions</h2>
   <ul class="edition-list">
     <li><a href="https://rsemeeting.github.io/rse2022/">RSE 2022</a> - Gran Sasso Science Institute, L'Aquila, Italy</li>

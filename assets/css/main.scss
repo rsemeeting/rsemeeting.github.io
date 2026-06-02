@@ -39,17 +39,17 @@ h4 {
 }
 
 h1 {
-  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-size: clamp(1.7rem, 3vw, 2.2rem);
   margin: 0 0 1rem;
 }
 
 h2 {
-  font-size: clamp(1.4rem, 2.4vw, 1.9rem);
+  font-size: clamp(1.15rem, 1.8vw, 1.5rem);
   margin: 2.5rem 0 0.85rem;
 }
 
 h3 {
-  font-size: clamp(1.1rem, 1.8vw, 1.35rem);
+  font-size: clamp(1rem, 1.4vw, 1.2rem);
 }
 
 main {
@@ -89,6 +89,8 @@ main .container ul {
 
 .nav-wrapper {
   min-height: 64px;
+  display: flex;
+  align-items: center;
 }
 
 .navbar-fixed {
@@ -102,6 +104,19 @@ main .container ul {
   font-size: 0.95rem;
   font-weight: 600;
   letter-spacing: 0.01em;
+}
+
+.nav .brand-logo,
+.nav ul a,
+.nav .sidenav-trigger {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  line-height: 1;
+}
+
+.nav ul {
+  margin: 0;
 }
 
 .nav-brand {
@@ -122,11 +137,21 @@ main .container ul {
   margin-top: 1rem;
 }
 
+.content-section:last-child,
+.steering-committee-section {
+  margin-bottom: 0;
+}
+
 .content-section-muted {
   padding: 1.4rem;
   border: 1px solid rgba(219, 227, 236, 0.9);
   border-radius: 20px;
   background: linear-gradient(180deg, #fbfcfe 0%, #f3f7fb 100%);
+}
+
+.steering-committee-section {
+  margin-top: 1.5rem;
+  padding: 1.2rem 0 0;
 }
 
 .eyebrow {
@@ -142,7 +167,7 @@ main .container ul {
 .lead {
   max-width: 44rem;
   color: #334155;
-  font-size: 1.12rem;
+  font-size: 1.04rem;
   line-height: 1.65;
 }
 
@@ -330,11 +355,11 @@ main .container ul {
   }
 
   h1 {
-    font-size: 1.8rem;
+    font-size: 1.55rem;
   }
 
   h2 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 
   .content-section-muted {
