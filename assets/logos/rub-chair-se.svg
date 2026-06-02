@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="180" viewBox="0 0 720 180" role="img" aria-labelledby="title desc">
+  <title id="title">Ruhr University Bochum, Chair of Software Engineering</title>
+  <desc id="desc">Wordmark for Ruhr University Bochum and the Chair of Software Engineering.</desc>
+  <rect width="720" height="180" fill="#f7f9fb"/>
+  <rect x="24" y="24" width="132" height="132" rx="16" fill="#003560"/>
+  <text x="90" y="104" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700" text-anchor="middle">RUB</text>
+  <text x="184" y="84" fill="#003560" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Ruhr University Bochum</text>
+  <text x="184" y="124" fill="#9d2246" font-family="Arial, Helvetica, sans-serif" font-size="28">Chair of Software Engineering</text>
+</svg>
